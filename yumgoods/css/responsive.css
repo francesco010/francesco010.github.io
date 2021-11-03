@@ -1,0 +1,416 @@
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+
+	.meet-artish-shape {
+	    width: 490px;
+	}
+
+}
+
+@media (min-width: 2400px) { 
+	.home-content {
+	    padding-top: 330px;
+	}
+}
+
+@media (min-width: 1800px) { 
+	.home-content {
+	    padding-top: 250px;
+	}
+}
+
+@media (min-width: 1400px) { 
+	.home-wrapper {
+		height: 150vh;
+	}
+}
+@media (min-width: 1200px) { 
+	.container {
+		max-width: 1190px;
+	}
+}
+
+@media (max-width: 1199px) { 
+	.home-wrapper {
+	    height: 700px;
+	}
+
+	.home-img-content p {
+	    font-size: 14px;
+	    line-height: 19px;
+	}
+
+	#menu li a {
+	    font-size: 14px;
+	    padding: 0 15px;
+	}
+
+	.make-btn {
+	    font-size: 14px;
+	    padding: 13px 30px;
+	}
+
+	.home-content h2 {
+	    font-size: 55px;
+	}
+
+	.home-content p {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	.unique-shape {
+	    bottom: -60px;
+	    width: 160px;
+	}
+
+	.unique-wrapper p {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	.meet-artish-shape {
+		display: none;
+	}
+
+	.meet-wrapper {
+	    padding-bottom: 0;
+	}
+
+	.meet-wrapper .container {
+	    position: relative;
+	    top: 0;
+	    left: auto;
+	    -webkit-transform: translateX(0);
+	        -ms-transform: translateX(0);
+	            transform: translateX(0);
+	}
+
+	.meetimg_active .slick-next {
+	    right: 36%;
+	}
+
+	.meetimg_active .slick-dots {
+	    left: 33%;
+	}
+
+	.meet-para {
+	    font-size: 14px;
+	    line-height: 24px;
+	}
+
+	.meet-para br {
+		display: none;
+	}
+
+	.meetcontent-box .row {
+	    margin-top: 50px;
+	}
+
+	.meet-artist-shape-two {
+		display: block;
+	}
+
+	.cool-wrapper p {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.home-content {
+	    padding-top: 40px;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.container {
+	    max-width: 100%;
+	}
+
+	#menu {
+	    position: fixed;
+	    height: 100%;
+	    width: 300px;
+	    left: 0;
+	    top: 0;
+	    padding: 120px 0 0 0;
+	    background-color: #ffffff;
+	    z-index: -1;
+	    -webkit-transform: translateX(-100%);
+	    -ms-transform: translateX(-100%);
+	    transform: translateX(-100%);
+	    -webkit-transition: 0.4s;
+	    -o-transition: 0.4s;
+	    transition: 0.4s;
+	}
+
+	#menu.open{
+		text-align: left;
+		-webkit-transform: translateX(0);
+		    -ms-transform: translateX(0);
+		        transform: translateX(0);
+	}
+
+	#menu li{
+		display: block;
+		padding: 0 15px;
+		max-width: 720px;
+		margin: 0 auto;
+	}
+
+	#menu li a.nav-link{
+		line-height: 45px;
+		padding: 0;
+	    width: 100%;
+	}
+
+	.hamburger-menu {
+		display: block;
+	}
+
+	.header-social {
+		display: none !important;
+	}
+
+	.home-ab .home-img {
+		display: none;
+	}
+	
+	.home-ab {
+	    position: relative;
+	    right: auto;
+	    top: auto;
+	    text-align: center;
+	}
+
+	.home-content {
+	    text-align: center;
+	}
+
+	.home-wrapper {
+	    height: auto;
+	    padding-bottom: 60px;
+	}
+
+	.home-img-content {
+	    margin-top: 60px;
+	}
+
+	.arrivals-wrapper {
+	    padding: 50px 0 140px 0;
+	}
+
+	.arrival-content p, .arrival-content span {
+	    font-size: 14px;
+	    line-height: 20px;
+	}
+
+	.unique-wrapper .head-text {
+	    max-width: 500px;
+	    line-height: 55px;
+	    margin: 0 auto;
+	}
+
+	.meetcontent-box .head-text {
+		text-align: center;
+	}
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+	.unique-shape {
+	    width: 120px;
+	}
+
+	.meetcontent-box .row.align-items-end {
+		-webkit-box-align: center !important;
+		    -ms-flex-align: center !important;
+		        align-items: center !important;
+	}
+
+	.meetimg_active .slick-next, .meetimg_active .slick-prev {
+	    bottom: 20%;
+	}
+
+	.meetimg_active .slick-next {
+	    right: auto;
+	    left: -30%;
+	}
+
+	.meetimg_active .slick-prev.slick-arrow {
+	    left: -105%;
+	}
+
+	.meetimg_active .slick-dots {
+	    bottom: 19%;
+	    left: -60%;
+	}
+
+	.meet-wrapper {
+	    padding-bottom: 0;
+	}
+
+	.meet-artist-shape-two {
+	    margin-top: 60px;
+	}
+
+
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+	.logo img {
+	    width: 70px;
+	}	
+
+	header {
+	    height: 60px;
+	}
+
+	header.sticky {
+	    height: 60px;
+	}
+
+	.hamburger-menu {
+	    top: 5px;
+	}
+
+	.home-content h2 {
+	    font-size: 36px;
+	    line-height: 94.9%;
+	    max-width: 220px;
+	    margin: 0 auto;
+	}
+
+	.home-img-content {
+	    margin-left: 10px;
+	}
+
+	.home-img-content p {
+	    font-size: 11px;
+	}
+
+	.make-btn {
+	    font-size: 13px;
+	    padding: 13px 20px;
+	    line-height: 14px;
+	}
+
+	.home-content p br {
+		display: none;
+	}
+
+	.home-content .mt_50 {
+		margin-top: 30px;
+	}
+
+	.head-text {
+	    font-size: 24px;
+	    line-height: 30px !important;
+	}
+
+	.arrival_carousel {
+		display: none !important;
+	} 
+
+	.arrivals-wrapper {
+	    padding: 30px 0 80px 0;
+	}
+
+	.unique-wrapper p br {
+		display: none;
+	}
+
+	.meet-man-img img {
+	    width: 100%;
+	}
+
+	.meet-para {
+	    font-size: 11px;
+	    line-height: 22px;
+	}
+
+	.meet-man-img p {
+	    font-size: 10px;
+	    line-height: 10px;
+	}
+
+	.meet-social {
+		display: none;
+	}
+
+	.custom-meet-social {
+	    display: block !important;
+	    margin-top: 3px;
+	}
+
+	.meetimg_active .slick-prev.slick-arrow {
+	    left: -180%;
+	}
+
+	.meetimg_active .slick-prev img, .meetimg_active .slick-next img {
+	    width: 15px;
+	}
+
+	.meetimg_active .slick-dots li button {
+	    width: 8px;
+	    height: 8px;
+	    margin: 0 5px;
+	}
+
+	.meetimg_active .slick-dots {
+	    bottom: 16%;
+	    left: -91%;
+	}
+
+	.meetcontent-box .row {
+	    margin-top: 30px;
+	}
+
+	.meetcontent-box .head-text {
+		text-align: center;
+	}
+
+	.meetcontent-box {
+	    padding-top: 30px;
+	}
+
+	.meet-artist-shape-two {
+	    margin-top: 30px;
+	}
+
+	.cool-wrapper {
+	    padding: 20px 0;
+	}
+
+	.cool-wrapper h2 {
+		font-size: 24px;
+	}
+
+	.cool-wrapper p {
+	    font-size: 12px;
+	    line-height: 20px;
+	    margin-top: 10px;
+	}
+
+	.cool-wrapper p br {
+		display: none;
+	}
+
+	.arivals-none {
+		display: block;
+	}
+
+	footer p {
+	    font-size: 11px;
+	    margin-top: 5px;
+	}
+
+	.footer-social a {
+	    width: 20px;
+	    height: 20px;
+	    border: 2px solid #ffffff;
+	    font-size: 10px;
+	}
+}
+
